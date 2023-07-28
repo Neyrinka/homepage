@@ -17,8 +17,8 @@ h1.shadow {
 
 
 
-.box {
-    margin: 0 1.5em 0 1.5em;
+.left {
+    text-align: left;
     }
 
 /* Change color for sections  */
@@ -29,12 +29,20 @@ div.first_section {
     background: rgba(231, 125, 132, 0.3);
     }
 
-    div.sections {
+div.sections {
         margin: 1em 0 0 0;
         font-size: 20px;
         font-weight: bold;
         background: rgba(231, 125, 132, 0.3);
         }
+
+div.main_sections {
+    margin: 0 0 0 0;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgba(231, 125, 132, 0.3);
+    text-transform: uppercase;
+    }
 
  /* Change to UPPERCASE for sections  */
 .uppercase {
@@ -76,7 +84,6 @@ div.first_section {
 /* List */
 ul li{
     float: left;
-    width: 50%;
     text-align: left;
 }
 ul{
