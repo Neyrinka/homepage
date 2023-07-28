@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the body */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+/* For name  */
+h1.shadow {
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgb(231, 125, 132);
+    color: rgb(0, 0, 0)
+    }
+
+
+
+.left {
+    text-align: left;
+    }
+
+/* Change color for sections  */
+div.first_section {
+    margin: 1.5em 0 0 0;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgba(231, 125, 132, 0.3);
+    }
+
+div.sections {
+        margin: 1em 0 0 0;
+        font-size: 20px;
+        font-weight: bold;
+        background: rgba(231, 125, 132, 0.3);
+        }
+
+div.main_sections {
+    margin: 0 0 0 0;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgba(231, 125, 132, 0.3);
+    text-transform: uppercase;
+    }
+
+ /* Change to UPPERCASE for sections  */
+.uppercase {
+    text-transform: uppercase;
+    }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #dddddd;
+    color: black;
+  }
+  
+  /* Column container */
+  .row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Main column */
+  .main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+/* List */
+ul li{
+    float: left;
+    text-align: left;
+}
+ul{
+    list-style-type: disc;
+}
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+  }
+  
